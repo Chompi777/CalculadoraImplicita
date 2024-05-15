@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadoras</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculadora de Probabilidades</h2>
+        <label for="probTeamA">Probabilidad Equipo A:</label>
+        <input type="text" id="probTeamA" placeholder="Ingresa un número">
+        <label for="probTie">Probabilidad de Empate:</label>
+        <input type="text" id="probTie" placeholder="Ingresa un número">
+        <label for="probTeamB">Probabilidad Equipo B:</label>
+        <input type="text" id="probTeamB" placeholder="Ingresa un número">
+        <button id="calculateBtn">Calcular</button>
+        <div id="probResultDisplay"></div>
+    </div>
+
+    <div class="calculator">
+        <h2>Calculadora Implícita</h2>
+        <input type="text" id="inputField" placeholder="Ingresa un número">
+        <button id="calculateBtnImplicit">Calcular</button>
+        <button id="resetBtn">Restablecer</button>
+        <div id="formulaDisplay"></div>
+        <div id="resultDisplay"></div>
+    </div>
+
+    <div class="footer">Powered by OnlyDevs</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
